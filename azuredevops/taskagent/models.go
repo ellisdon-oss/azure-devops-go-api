@@ -2170,8 +2170,7 @@ type TaskHubLicenseDetails struct {
 	TotalPrivateLicenseCount *int `json:"totalPrivateLicenseCount,omitempty"`
 }
 
-type TaskInputDefinition struct {
-}
+type TaskInputDefinition map[string]interface{}
 
 type TaskInstance struct {
 	Id               *uuid.UUID         `json:"id,omitempty"`
